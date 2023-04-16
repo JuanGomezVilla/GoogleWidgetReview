@@ -1,2 +1,2 @@
-# GoogleWidgetReview
-A widget using a simply HTML tag, CSS, and JavaScript to render Google reviews
+# Google Widget Review
+A widget written in HTML, CSS and Javascript to render Google business reviews, using a simple tag
