@@ -1,48 +1,69 @@
-<div>
-    <google-review
-        name="Juan"
-        star="https://www.iconpacks.net/icons/2/free-star-icon-2768-thumb.png"
-        points="5"
-        avatar="https://www.w3schools.com/w3css/img_avatar3.png">
-            Muy satisfecho del trato y de la profesionalidad a
-            la hora del diagnóstico y del tratamiento recibido
-            por Manel y de la gente del centro. En cuanto al
-            deporte, han disminuido mis lesiones. Muy recomendable.
-    </google-review>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="GoogleWidgetReview.js"></script>
+        <style>
 
-    <google-review
-        name="Andrés"
-        star="https://www.iconpacks.net/icons/2/free-star-icon-2768-thumb.png"
-        points="3"
-        avatar="https://www.w3schools.com/w3css/img_avatar2.png">
-            Mi madre lleva años yendo a este centro, siempre la
-            han tratado muy bien y además le han desaparecido
-            dolores y molestias que tenía en las rodillas y en
-            los pies. Lo recomiendo.
-    </google-review>
+            google-reviews {
+                width: 100%;
+                display: flex;
+                overflow: auto;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            google-review {
+                min-width: 200px;
+                max-width: 200px;
+                border-radius: 10px !important;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div style="margin:0 auto;width:75%">
+            <google-reviews>
 
-    <google-review
-        name="María"
-        star="https://www.iconpacks.net/icons/2/free-star-icon-2768-thumb.png"
-        points="4"
-        avatar="https://www.w3schools.com/howto/img_avatar2.png">
-            Acudí con unos dolores horribles que me impedían
-            hasta andar. Después del paso por esta clínica y
-            las recomendaciones de Manel puedo hacer vida normal.
-            La mujer de recepción es un sol.
-    </google-review>
+                <google-review
+                    name="Grillo"
+                    star="https://www.iconpacks.net/icons/2/free-star-icon-2768-thumb.png"
+                    points="5"
+                    avatar="https://www.w3schools.com/w3css/img_avatar3.png">
+                        Muy satisfecho del trato y de la profesionalidad a
+                        la hora del diagnóstico y del tratamiento recibido
+                        por Manel y de la gente del centro. En cuanto al
+                        deporte, han disminuido mis lesiones. Muy recomendable.
+                </google-review>
+            
+                <google-review
+                    name="Pepito"
+                    star="https://www.iconpacks.net/icons/2/free-star-icon-2768-thumb.png"
+                    points="3"
+                    avatar="https://www.w3schools.com/w3css/img_avatar2.png">
+                        Mi madre lleva años yendo a este centro, siempre la
+                        han tratado muy bien y además le han desaparecido
+                        dolores y molestias que tenía en las rodillas y en
+                        los pies. Lo recomiendo.
+                </google-review>
+            
+                <google-review
+                    name="Caca"
+                    star="https://www.iconpacks.net/icons/2/free-star-icon-2768-thumb.png"
+                    points="4"
+                    avatar="https://www.w3schools.com/howto/img_avatar2.png">
+                        Acudí con unos dolores horribles que me impedían
+                        hasta andar. Después del paso por esta clínica y
+                        las recomendaciones de Manel puedo hacer vida normal.
+                        La mujer de recepción es un sol.
+                </google-review>
+            
+            </google-reviews>
+        </div>
 
-    <google-review
-        name="Juanito"
-        star="https://www.iconpacks.net/icons/2/free-star-icon-2768-thumb.png"
-        points=2
-        avatar="https://www.w3schools.com/w3css/img_avatar2.png">
-            Esto es un comentario de prueba que debe aparecer como
-            mensaje dentro de un comentario. La valoracion y los
-            atributos de la misma etiqueta son obligatorios para
-            que todo funcione correctamente.
-    </google-review>
+        
+    </body>
+</html>
 
-</div>
 
-<script src="GoogleWidgetReview.js"></script>
+

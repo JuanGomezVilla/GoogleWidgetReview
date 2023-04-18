@@ -20,13 +20,13 @@ window.onload = function(){
             //Creación de la foto de perfil
             resultado += "<div>";
             resultado += `<img style=\"vertical-align:middle;margin-right:10px;width:40px;height:40px;border-radius:100%\" src=\"${tag.attributes.avatar.value}\">`;
-            resultado += `<span><b>${tag.attributes.nombre.value}</b></span>`;
+            resultado += `<span><b>${tag.attributes.name.value}</b></span>`;
             resultado += "</div>";
 
             //ESTRELLAS
             resultado += "<div style='margin-top:20px'>";
-            let cantidadPuntos = Number(tag.attributes.puntos.value);
-            let estrellaPath = tag.attributes.estrella.value;
+            let cantidadPuntos = Number(tag.attributes.points.value);
+            let estrellaPath = tag.attributes.star.value;
             for(let i=0; i<5; i++){
                 resultado += "<img width=20 ";
                 if(i >= cantidadPuntos) resultado += " style='filter:grayscale(100%)' "; 
